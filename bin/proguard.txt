@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:8
+-keep class cz.septemberprojects.btbeatandroid.MainActivity { <init>(...); }
+
