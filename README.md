@@ -5,7 +5,7 @@
 ## Setup BTBeat
 To add BTBeat to your application add BTBeat.jar to your projects libs folder, import cz.septemberprojects.btbeatandroid.BTBeatManager and  cz.septemberprojects.btbeatandroid.BTBeatManager.Event and instantiate class BTBeatManager by BTBeatManager(Context context, String appName, String appVersion)
 
- ## Events
+## Events
  
 ```
 BTBeatManager.allowAutomaticEvents(boolean allow)
@@ -29,7 +29,7 @@ BTBeatManager.addEvent(Event.eventName);
 
 *BTBEAT_EVENT_BT_TURNED_ON*, *BTBEAT_EVENT_BT_TURNED_OFF*, *BTBEAT_EVENT_BT_UNSUPPORTED* and *BTBEAT_EVENT_BT_UNAUTHORISED*  are added automatically if automatic events are allowed.
 
- ## Interaction with server
+## Interaction with server
 
 Default option is to send data every time onCreate() is called. For this, call BTBeatManager.onCreate() at your main activity onCreate(); 
 
